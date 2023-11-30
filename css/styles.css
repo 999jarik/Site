@@ -1,0 +1,124 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+/* Header start */
+.head {
+    max-width: 1170px;
+    min-height: 79px;
+    margin: 0 auto;
+    padding-top: 30px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.menu {
+    width: 403px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.link-ancor_head {
+    font-size: 16px;
+    font-weight: 500;
+    color: #774E2E;
+}
+/* Header end */
+
+/* Main start */
+.main {
+    max-width: 1170px;
+    margin: 0 auto;
+    margin-bottom: 152px;
+    padding-top: 98px;
+    display: flex;
+    justify-content: space-between;
+}
+.content-left_main {
+    max-width: 575px;
+    min-height: 474px;
+    padding-top: 63px;
+    color: #774E2E;
+}
+.title_main {
+    color: #F37F34;
+    font-weight: 900;
+    font-size: 110px;
+    text-transform: uppercase;
+}
+.title_main span {
+    color: #774E2E;
+}
+.text-container_main {
+    padding-top: 40px;
+    margin-bottom: 50px;
+}
+.text_main {
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 150%;
+    text-align: left;
+}
+.favorite-link_main {
+    display: inline-block;
+    width: 343px;
+    min-height: 69px;
+    background-color: #774E2E;
+    color: white;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 69px;
+    text-align: center;
+}
+/* Main end */
+
+/* Favorites start */
+.favorites {
+    background-color: #FFF9EA;
+    min-height: 911px;
+}
+.content_favorites {
+    padding-top: 150px;
+    max-width: 1170px;
+    margin: 0 auto;
+}
+.title_favorites {
+    max-width: 1151px;
+    margin: 0 auto;
+    margin-bottom: 70px;
+    line-height: 110%;
+    font-size: 72px;
+    font-weight: 700;
+    text-align: center;
+    color: #F37F34;
+}
+.title_favorites span {
+    color: #774E2E;
+}
+.items_favorites {
+    display: flex;
+    justify-content: space-between;
+}
+.item_favorites {
+    background-color: white;
+    min-height: 462px;
+    width: 370px;
+}
+.item_favorites img {
+    margin-bottom: 36px;
+}
+.item_favorites h3 {
+    margin-bottom: 15px;
+    color: #673b19;
+    line-height: 130%;
+    font-weight: 600;
+    font-size: 24px;
+    text-align: center;
+}
+.item_favorites p {
+    max-width: 330px;
+    color: #774E2E;
+    line-height: 150%;
+    font-weight: 500;
+    font-size: 16px;
+    text-align: center;
+}
+/* Favorites end */
