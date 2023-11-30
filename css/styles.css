@@ -174,3 +174,26 @@
     font-size: 16px;
 }
 /* Advice end */
+
+/* Footer start */
+.footer {
+    background-color: #774E2E;
+}
+
+.content_footer {
+    margin: 0 auto;
+    max-width: 1170px;
+    min-height: 180px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.text_footer {
+    align-self: center;
+    font-size: 36px;
+    line-height: 130%;
+    font-weight: 500;
+    text-align: right;
+    color: #ffffff;
+}
+/* Footer end */
