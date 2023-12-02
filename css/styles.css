@@ -34,6 +34,10 @@
     font-weight: 500;
     color: #774E2E;
 }
+
+.link-ancor_head:hover {
+    color: gray;
+}
 /* Header end */
 
 /* Main start */
